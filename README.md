@@ -2,7 +2,7 @@
 
 
 
-##Point-of-sale scanner program has several classes:
+## Point-of-sale scanner program has several classes:
 
 Terminal class in terminal.php
 
@@ -25,7 +25,7 @@ This class provides operations to update a product unit and volume costs and oth
 as whether the product is in the inventory.
 
 ---
-###How the program works
+### How the program works
 Use the Inventory class to create and stores product object.
 
 The Listing class will will manage prices for all products stored in the Inventory class.
@@ -35,7 +35,7 @@ use the Invoice class to calculate total cost of scanned products.
  
 The Invoice class will also use the Listing class given by Terminal to perform calculations.
 
-###NOTE:
+### NOTE:
 I did not handle all possibie exceptions if someone tries inputting non-numeric or negative unit and volume prices, except for the add() method in Inventory class.  
 
 ---
