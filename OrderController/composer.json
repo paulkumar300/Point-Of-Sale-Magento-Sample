@@ -1,0 +1,23 @@
+{
+    "name": "born/module-ordercontroller",
+    "description": "Guest order history",
+    "license": "OSL-3.0",
+    "authors": [
+        {
+            "name": "Test",
+            "email": "test@test.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"type": "magento2-module",
+	"version": "2.0.0",
+    "autoload": {
+        "psr-4": {
+            "Born\\OrderController\\": ""
+        },
+        "files": [
+            "registration.php"
+        ]
+    }
+}
